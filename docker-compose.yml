@@ -1,0 +1,7 @@
+services: 
+  reviews:
+    build: .
+    image: ghcr.io/wsboos/bookinfo-reviews:dev
+    ports:
+      - "8082:8082"
+
